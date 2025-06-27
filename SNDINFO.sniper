@@ -1,0 +1,12 @@
+BattleRifle/Fire BR45FIRE
+BattleRifle/Ping BR45PING
+BattleRifle/Open BR45OPEN
+BattleRifle/Load BR45LOAD
+BattleRifle/Pick BR45PICK
+BattleRifle/Click BR45SWCH
+
+$random BattleRifle/Bounce { BattleRifle/Bounce1 BattleRifle/Bounce2 BattleRifle/Bounce3 }
+BattleRifle/Bounce1 BR45BON1
+BattleRifle/Bounce2 BR45BON2
+BattleRifle/Bounce3 BR45BON3
+BattleRifle/Bounce4 BR45BON4

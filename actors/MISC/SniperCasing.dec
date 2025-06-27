@@ -1,0 +1,32 @@
+ACTOR EmptyRifleClip : EmptyClip
+{
+	Scale 0.2
+	BounceSound "weapons/smallmagdrop"
+	States
+	{
+	Spawn:
+		TNT1 A 7
+		TNT1 A 0 A_PLaySound("BattleRifle/Ping", 5)
+		BR4C ABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGH 4
+		Stop
+
+	Death:
+		TNT1 A 0
+		TNT1 A 0 ACS_NamedExecuteAlways("BDCheckJanitor")//Check Effects
+		TNT1 A 0 ACS_NamedExecuteAlways("BDCheckJanitor2")//Check Effects
+		BR4C C 350
+		TNT1 A 0 A_JumpIfInventory("LowGraphicsMode", 1, "null")
+		Loop
+	}
+}
+
+ACTOR EmptyRifleClipSpawn: RifleCaseSpawn
+{
+	States
+	{
+	Spawn:
+		TNT1 A 0
+		TNT1 A 1 A_CustomMissile("EmptyRifleClip",1,0,random(85,95),2,1)
+		Stop
+	}
+}

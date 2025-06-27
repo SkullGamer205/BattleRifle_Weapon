@@ -1,0 +1,5 @@
+Battle Rifle (from [BDP](https://github.com/EmeraldCoasttt/BrutalDoomPlatinum)) for [BDv22](https://www.moddb.com/mods/brutal-doom)
+
+SPRITES: [EmeraldCoasttt](https://www.moddb.com/members/emeraldcoasttt)
+SOUNDS: [EmeraldCoasttt](https://www.moddb.com/members/emeraldcoasttt)
+CODE: [SkullGamer205](https://www.moddb.com/members/skullgamer205)

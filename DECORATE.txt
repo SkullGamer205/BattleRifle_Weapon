@@ -1,0 +1,3 @@
+#include "actors/Weapons/Sniper.dec"
+#include "actors/Weapons/SniperSpawner.dec"
+#include "actors/MISC/SniperCasing.dec"
